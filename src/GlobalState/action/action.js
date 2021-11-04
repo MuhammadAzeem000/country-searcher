@@ -10,7 +10,7 @@ import {
   SET_INPUT,
 } from "../ActionType";
 
-const uri = "https://restcountries.eu/rest/v2/all";
+const uri = "https://restcountries.com/v2/all";
 //const uri = "https://restcountries.eu/rest/v2/region/europe";
 
 export async function fetchCountries(dispatch) {
